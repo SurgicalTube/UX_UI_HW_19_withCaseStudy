@@ -1,0 +1,168 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+.nav{
+    width: 73%;
+    padding: 1%;
+}
+.ul{
+    width: 50%;
+    margin-left: auto;
+}
+.heroimg{
+    height: 600px;
+    padding: 25px;
+    float: right;
+}
+    
+.blackBox{
+    position: absolute;
+width: 1802.3px;
+height: 1350.99px;
+left: 983.5px;
+top: -192px;
+z-index: -1;
+background: #000000;
+transform: rotate(9.67deg);
+flex: auto;
+}
+
+.footer{
+    background-color: #373738;
+}
+.foot{
+    display: inline-block;
+    vertical-align: top;
+}
+.li{
+    padding: 500px;
+}
+
+
+
+.intro{
+    padding: 15%;
+    
+}
+
+.sideInfo{
+    float: left;
+}
+
+.container{
+    position: inherit;
+}
+
+.me{
+    height: 737px;
+    width: 400px;
+    z-index: 10000;
+}
+
+.frontEnd{
+    opacity:45% ;
+}
+
+.basherTech{
+    padding: 100px;
+    background-color: #1D1D1D;
+    color: white;
+    overflow-wrap: break-word;
+}
+
+.techInfo{
+    overflow-wrap: break-word; 
+    display:inline-block;
+}
+
+.tb{
+    display: inline-block;
+    margin-left: 85%;
+    position: absolute;
+    
+}
+.imgCont{
+    float: right;
+}
+
+
+#aboutMe{
+    justify-content: center;
+    text-align: center;
+}
+
+#aboutMe h1{
+    justify-content: center;
+    text-align: center;
+}
+
+.mySkills{
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+
+.skills{
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.flexContainer{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid red;
+    border-top: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: white;
+    
+
+
+    
+}
+.hex{
+    height: 250px;
+    width: 250px;
+}
+
+.cal{
+    height: 250px;
+    width: 250px;
+}
+
+.fruit{
+    height: 250px;
+    width: 250px;
+}
+
+.gridCon{
+    display: grid;
+    grid-row-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 50px ;
+    
+    
+}
+
+@media only screen and (max-width: 600){
+    #grid{
+        margin: 0px 5%;
+        display: grid;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
